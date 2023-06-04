@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         {/* <Route path="/" element={<Login />} />
         <Route path="/add" element={<AddTask />} />
         <Route path="/edit/:taskId" element={<EditTask />} /> */}
